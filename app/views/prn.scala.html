@@ -1,0 +1,19 @@
+@import v1.converter.HtmlRow
+@(htmlRows: List[HtmlRow])
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prn to Html Converter</title>
+    </head>
+    <body>
+        <table>
+            @for(row <- htmlRows){
+                <tr>
+                 @for(data <- row.dataset){
+                     <td>@data.html</td>
+                    }
+                </tr>
+            }
+        </table>
+    </body>
+</html>

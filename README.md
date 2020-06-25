@@ -1,5 +1,17 @@
 # BETest
 
+### Instructions: How to run the REST Service
+
+The solution has been implemented in Scala Language and Play Framework
+
+To start the app: use command: ```sbt run```
+
+Access the App using your favorite browser at: http://localhost:9000/
+
+1. Hit http://localhost:9000/csv endpoint to get Workbook2.csv in HTML
+
+2. Hit http://localhost:9000/prn endpoint to get Workbook2.prn in HTML
+
 ## Why?
 
 We are interested in your skills as a developer. As part of our assessment, we want to see your code.
