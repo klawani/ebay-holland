@@ -1,4 +1,16 @@
-build
-logs
-target
-.idea
+# Eclipse
+/.project
+/.settings
+/.classpath
+/bin
+/.cache
+
+# IntelliJ Idea
+/.idea
+/.idea_modules
+BeTestKarimLawani.iml
+
+.DS_Store
+
+/target
+/project/target
